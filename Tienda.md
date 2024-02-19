@@ -171,10 +171,11 @@ System.out.println("====AGREGAR PRODUCTO====");
 	 break;
 	//mostrar error si no se encuentra ningun producto con el id	                }
 	}
+}
 	if (!encontrado) {
 	 System.out.println("No se encontró el producto con es Id.");
 	 }
-         }       
+             
     }
     public static void main(String[] args) {
         Taller2 organizador = new Taller2();
